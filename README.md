@@ -2,7 +2,7 @@
 
 ## Arquitectura Propuesta
 
-![arquitectura-aygo-propuesta](https://github.com/user-attachments/assets/c9ed83c5-80af-4f5e-acb0-211fc6bd97f3)
+![arquitectura-aygo-v3](https://github.com/user-attachments/assets/07c619a2-e7a2-4cc4-9622-a8ea4e2a3cee)
 
 ## Flujo del Prototipo
 En el presente prototipo, ilustrado en la figura, los usuarios interactúan con la **aplicación** a través de Amazon API Gateway, el cual redirige las solicitudes hacia una cola SQS de ingesta *ingestion-sqs*. Desde esta cola, los mensajes son procesados por una función Lambda que determina el área correspondiente y gestiona su envío vía correo electrónico.
