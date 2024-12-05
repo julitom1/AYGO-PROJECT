@@ -18,3 +18,6 @@ Este esquema aprovecha al máximo los servicios de AWS para garantizar un flujo 
 
 ### Video Demostrativo
 
+A continuación se realiza un PoC para visualizar la sección de aplicación, inferencia y asignación de la solución propuesta.
+
+https://youtu.be/M_RX_Jdc0gg
